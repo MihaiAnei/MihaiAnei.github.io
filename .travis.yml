@@ -1,6 +1,6 @@
 language: ruby
 rvm: [2.2.5]
-install: bundle install
+install: bundle install && gem install jekyll html-proofer
 script: bundle exec jekyll build && htmlproofer ./_site --url-ignore "/linkedin.com/"
 env:
   global: [NOKOGIRI_USE_SYSTEM_LIBRARIES=true]
