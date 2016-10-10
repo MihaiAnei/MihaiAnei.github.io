@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/MihaiAnei/MihaiAnei.github.io.svg?branch=master)](https://travis-ci.org/MihaiAnei/MihaiAnei.github.io)
+
+
 Original README. This is a forked repository, made a lot of changes, but it's
 fair to leave the original author's readme.
 
