@@ -10,150 +10,98 @@ permalink: /resume/
 
 ### Tools
 --------
-
-- Neovim, Tmux, Unix shell environments
-- Git, Github, Bitbucket
-- GNU/Linux(Ubuntu, Arch), Windows
-- Dvorak keyboard layout
+- IntelliJ IDEA, Sublime
+- ZSH, prezto
+- Git, Github, Gogs
+- GNU/Linux(Ubuntu, Arch), MacOS
 
 <br/>
 
 ### Programming Languages
 ------------
-
-- Great with Python, Javascript, HTML, CSS/Sass, SQL
-- Can operate in Bash, Java, C#
-- Basic knowledge of Erlang, Elixir, Rust, Go, Nim
+- Great with Java, SQL, Bash
+- Can operate in Python, Scala, JavaScript, CSS
+- Basic knowledge of C/C++, Ruby
 
 <br/>
 
 ### Spoken Languages
 ------------
-
 - Romanian (Native)
 - English (Great)
-- German (Basic)
 
 <br/>
 
-### Web Frameworks, Generators, Notable Libraries
+### Frameworks, Notable Libraries
 ------------
-
-- Django, Django Rest framework, Allauth
-- Celery
+- Spring Framework including Spring Boot and Spring Cloud
+- Immutables, Javaslang
+- Spark Java API
+- Parse
 - Swagger
-- Ionic, Cordova
-- Logstash, Kibana
-- Nose, Markdown
 
 <br/>
 
-### Frontend Libraries and Frameworks
+### Other technologies and knowledge
 ------------------------------------
-- Jquery
-- AngularJs
-- Lodash.js/Underscore.js
-- Gulp
-- Bower
-- Candidate ES6 functionality
+- Linux Containers (Docker, Rkt)
+- Networking, ActiveMQ
+- Rancher (Great), Kubernetes (Basic)
+- Jenkins, GoCD, CI/CD Automation
+- DC/OS Mesos
+- Virtualization (VMWare)
 
 <br/>
 
 ### Databases / Stores
 ------------------------------------
-- PostgreSQL, MySQL, MS SQL Server
-- Redis, Memcached, ElasticSearch
+- PostgreSQL, MongoDB, Cassandra
 
 <br/>
 
 # Experience
 
-### Spyhce
-*March 2014 – Present | Cluj County, Romania*
+### Neverfail (Artisan Infrastructure)
+*March 2013 – Present | Cluj County, Romania
 
-With Spyhce, I am part of a team of developers and designers that specializes in
-creating web-based applications for clients all around the world.
-My primary role is that of a full stack developer, working mostly in **python**(django)
-and **javascript**(AngularJs, Jquery).
+The company went through a lot of transitions in the last couple of years. Chaging focus and building new products,
+I was part of different teams focused on using new technologies that helped us implementing solutions regarding
+network analysis and discovery, infrastructure automation, builing a cloud platform and big data analysis. 
+I was responsible with software implementation and testing (mainly **java** with Spring but also a bit of C/C++,
+bash, scala), maintenance of different systems and servers, automation and integration for a couple of external services.
 <br/>
 
-**Projects at Spyhce that I worked on:**
+**Projects at Neverfail that I worked on:**
 
-* #### Confidential
-> The project is a statistic platform for betting enthusiasts. Users can buy
-> widgets for several dashboards and teams with game statistics in order to make
-> better bets. Second part of the application involved aggregating match
-> statistics and bets odds from different betting platforms.
-> I was the **lead backend developer** on the project working closely with the
-> front end developer. The project architecture was split in two major parts,
-> back end acting as a provider of a service and the front end being the
-> consumer.
+* #### Architect
+> The project is a network analysis and discovery tool that can keep track of
+> different hosts and applications on a given network. It is able to build 
+> dependecies between network traffic, Operating Systems and Applications.
+> I was responsible with research, implementation and building different 
+> dependecies for the project (winexe, nmap, OVA appliance).
 <br/>
-> **Worked with: Django, All-Auth, Rest-framework, Redis, Celery, Swagger, REST**
+> **Worked with: Java, Spring, PostgreSQL, Nmap, pcap, winexe, OVA Appliances, Netapp**
 
-* #### Moody365
-> Social media application with the mission of providing it's users with a day
-> by day snapshot of photos, interactions, activities made.
-> Was involved in the project from the beginning, responsible(with another colleague)
-> for back end work, front-end work, architecture.
+* #### Virtual Private Datacenter
+> This project was focused on automating the deployment of new hardware and products 
+> in our datacenters. I had to work with mutiple external services, integrate with their
+> APIs, write automation solutions described by the sales and hardware team.
 <br/>
-> **Worked with: Agile, Django, All-Auth, Rest-framework, Redis, AngularJs**
+> **Worked with: Agile-Scrum Methodologies, Java, Spring Web, Spring Boot, HATEOAS REST APIs**
 
-* #### 8vance
-> 8vance provides companies and candidates with the big picture of their
-> individual job- and labour market. This will help them to avoid uncertainty,
-> anticipate the future, take better and faster decisions and just be more
-> successful.
-> Application that puts in contact job seekers with job offers using a neural
-> network based on personality, experiences etc.
-> Was responsible for making a REST API for mobile version of the website, bug fixing.
+* #### Work in progres...
+> ...
 <br/>
-> **Worked with: Django, Rest-framework, Rest-auth, PostMan, Refactoring tools, Intensive Debugging**
-
-* #### 8vance mobile
-> Mobile version of 8vance.
-> Build by me from the ground up using Ionic framework.
-> Special mentions: Difficulties faced because the back end architecture wasn't
-> build for access from third party apps, lazy loading of application resources
-> in order to make them more configurable and increase application performance.
-<br/>
-> **Worked with: Rest-framework, Ionic, Cordova, Android SDK, Gulp, Bower**
-
-* #### SmartFeedz
-> Social Media Aggregator that aims to collect Social Media messages about
-> an event or brand page, from several different sources, and present them live
-> during an event. Pictures, videos and any kind of social media feedback will
-> be presented in real time as people are interacting on different Social Media
-> channels.
-> Responsibilities: Made REST endpoints for the application, implemented caching
-> of scrapped data in ElasticSearch to improve performance and better aggregate and
-> display the results.
-<br/>
-> **Worked with: ElasticSearch, Kibana, Rest-framework, Haystack**
-
-* #### Spyhce Website
-> Responsibilities: Mentoring a 2 person internship team.
-<br/>
-> **Worked with: Django, CSS, Javascript, Django-admin**
-
-* #### CqScore/BsScore
-> Web application for receiving feedback from former clients.
-<br/>
-> **Worked with: Django, Google Maps APIs, PostGIS - Spatial and Geographic Objects for PostgreSQL**
+> **Worked with: ..**
 
 # Education
-
-### Technical University of Cluj-Napoca - Cluj-Napoca
---------------------------
-
-2008 - 2012 - Bachelor of Civil Engineering
 
 ### Babeș-Bolyai University - Cluj-Napoca
 --------------------------
 
 2012 - 2015 - Bachelor of Computer Science
 
-### Colegiul National Simion Barnutiu - Simleu Silvaniei
+### Colegiul National Radu Negru - Fagaras
 --------------------------
 
-2003 - 2007 - High School Diploma Math - Computer Science
+2008 - 2012 - High School Diploma Math - Computer Science
