@@ -62,7 +62,7 @@ permalink: /resume/
 # Experience
 
 ### Neverfail (Artisan Infrastructure)
-*March 2013 – Present | Cluj County, Romania
+*August 2013 – November 2016 | Cluj County, Romania
 
 The company went through a lot of transitions in the last couple of years. Chaging focus and building new products,
 I was part of different teams focused on using new technologies that helped us implementing solutions regarding
@@ -89,10 +89,26 @@ bash, scala), maintenance of different systems and servers, automation and integ
 <br/>
 > **Worked with: Agile-Scrum Methodologies, Java, Spring Web, Spring Boot, HATEOAS REST APIs**
 
-* #### Work in progres...
-> ...
+* #### Cloud Service Architect
+> Following the previous project, this one was focused on exposing the hardware from datacenters 
+> to clients through a web platform. The whole project was based on microservice architecture, Docker
+> and Rancher as a Container Orchestration tool. I worked with different teams and during the project
+> I was responsible for some of the services in the platform, Rancher Orchestration server, 
+> deployment architecture, continous delivery and maintenance of the production environment.
 <br/>
-> **Worked with: ..**
+> **Worked with: Spring Boot, Spring Cloud, Rest APIs, Salesforce Integration, MongoDB, PostgreSQL,**
+> **ActiveMQ, Rancher, Docker, Jenkins, GoCD**
+
+* #### Data Driven Services - Billing
+> In order to be able to bill every hardware usage from the company, this project was designed to
+> gather all the required information from the infrastructure, aggregate all the data and build an
+> invoice for all the clients. Together with a team, I worked on collecting the data and save it to 
+> Cassandra, writting aggregation algorithms using the data from Cassandra and Apache Spark.
+> Also we had to research best practises for deploying Cassandra and Spark into a production environment
+> and find the best deployment methods that suited our needs. 
+<br/>
+> **Worked with: Java8, Spring Boot, Immutables, Functional Programming (in Java and a bit in Scala),**
+> **Cassandra, Apache Spark, ActiveMQ**
 
 # Education
 
