@@ -10,18 +10,17 @@ permalink: /resume/
 
 ### Tools
 --------
-- IntelliJ IDEA, Sublime
-- ZSH, prezto
-- Git, Github, Gogs
+- IntelliJ IDEA, Sublime, VSCode
+- ZSH, oh-my-zsh
+- Git, GitHub, Gogs
 - GNU/Linux(Ubuntu, Arch), MacOS
 
 <br/>
 
 ### Programming Languages
 ------------
-- Great with Java, SQL, Bash
-- Can operate in Python, Scala, JavaScript, CSS
-- Basic knowledge of C/C++, Ruby
+- Great with Java, Scala
+- Other interests: Native compiled and functional programming languages
 
 <br/>
 
@@ -34,28 +33,27 @@ permalink: /resume/
 
 ### Frameworks, Notable Libraries
 ------------
-- Spring Framework including Spring Boot and Spring Cloud
+- Spring Framework
+- Akka Framework & Cats
+- gRPC and protoBuf
 - Immutables, Javaslang
 - Spark Java API
-- Parse
-- Swagger
 
 <br/>
 
 ### Other technologies and knowledge
 ------------------------------------
 - Linux Containers (Docker, Rkt)
-- Networking, ActiveMQ
-- Rancher (Great), Kubernetes (Basic)
-- Jenkins, GoCD, CI/CD Automation
-- DC/OS Mesos
-- Virtualization (VMWare)
+- Networking
+- Kubernetes (Great)
+- CI/CD Automation
+- Virtualization (VMWare, KVM)
 
 <br/>
 
 ### Databases / Stores
 ------------------------------------
-- PostgreSQL, MongoDB, Cassandra
+- PostgreSQL, Cassandra
 
 <br/>
 
@@ -109,6 +107,27 @@ bash, scala), maintenance of different systems and servers, automation and integ
 <br/>
 > **Worked with: Java8, Spring Boot, Immutables, Functional Programming (in Java and a bit in Scala),**
 > **Cassandra, Apache Spark, ActiveMQ**
+
+### PitechPlus
+*January 2017 – March 2017 | Cluj County, Romania
+
+Worked with AWS and CI/CD solutions for different projects.
+<br/>
+
+### iQuate Ltd.
+*April 2017 – Present | Cluj County, Romania
+
+The company is focused on building a platform that scans and then analyses 
+data coming from infrastructure in different datacenters.I am currently 
+working on the project that takes care of the second part.
+<br/>
+
+* #### HADM
+> Microservice platform written in Scala and using Akka Framework (mostly) that analyses the data regarding
+> infrastructure. My main focus is the communication between the platform and the component that sends data from 
+> datacenters, the deployment of the required services (Kubernetes on Bare Metal, Kafka, Cassandra) and CI/CD.
+<br/>
+> **Worked with: Scala, Akka, Play, Kubernetes, AWS**
 
 # Education
 
