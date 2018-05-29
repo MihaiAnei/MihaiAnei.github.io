@@ -62,7 +62,7 @@ permalink: /resume/
 ### Neverfail (Artisan Infrastructure)
 *August 2013 – November 2016 | Cluj County, Romania
 
-The company went through a lot of transitions in the last couple of years. Chaging focus and building new products,
+The company went through a lot of transitions in the last couple of years. Changing focus and building new products,
 I was part of different teams focused on using new technologies that helped us implementing solutions regarding
 network analysis and discovery, infrastructure automation, builing a cloud platform and big data analysis. 
 I was responsible with software implementation and testing (mainly **java** with Spring but also a bit of C/C++,
