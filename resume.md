@@ -145,11 +145,13 @@ and media with the purpose of fighting financial crime and corruption.
 > Worked with an SRE team on adopting Kubernetes throughout the company and improving the general state of the infrastructure,
 > which is based on AWS. At the same time worked embedded in many development teams and helped with their immediate necessities.
 > Was involved in some design decisions as well for the systems we made.
+
 > Worked on improving other aspects of development lifecycle:
 > * CI and release
 > * Automating integration/performance tests with GitLab and K8S
 > * Technology adoption requirements
 > * CD with GitOps
+
 > Worked with the SRE team on designing and implementing the same set of toolings and infrastructure throughout all our AWS accounts.
 > We reffered to this as a development and production release platform developers can use without too much of our help:
 > * Same AWS EKS configuration and access
@@ -158,6 +160,7 @@ and media with the purpose of fighting financial crime and corruption.
 > * Strimzi Operator for Kafka
 > * ArgoCD GitOps approach for keeping all this and application deployments up to date with just using Git
 > * and many others...
+
 > Wrote a bit of code when was required and time allowed it, in Go and Python.
 <br/>
 > **Worked with: AWS, Terraform, AWS EKS, ArgoCD, GitLab and many other AWS Services and other tools**
