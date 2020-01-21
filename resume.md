@@ -12,15 +12,15 @@ permalink: /resume/
 --------
 - IntelliJ IDEA, Sublime, VSCode
 - ZSH, oh-my-zsh
-- Git, GitHub, Gogs
+- GitLab, GitHub, Gogs
 - GNU/Linux(Ubuntu, Arch), MacOS
 
 <br/>
 
 ### Programming Languages
 ------------
-- Great with Java, Scala
-- Other interests: Native compiled and functional programming languages
+- Main languages: Java, Scala
+- Other interests: Go, NodeJS
 
 <br/>
 
@@ -34,10 +34,9 @@ permalink: /resume/
 ### Frameworks, Notable Libraries
 ------------
 - Spring Framework
-- Akka Framework & Cats
+- Akka Framework
 - gRPC and protoBuf
 - Immutables, Javaslang
-- Spark Java API
 
 <br/>
 
@@ -48,12 +47,18 @@ permalink: /resume/
 - Kubernetes (Great)
 - CI/CD Automation
 - Virtualization (VMWare, KVM)
+- ArgoCD
+- Kubernetes Operators Pattern
+- Terraform
+- Prometheus
+- AWS & GCE
 
 <br/>
 
-### Databases / Stores
+### Databases / Stores / Others
 ------------------------------------
 - PostgreSQL, Cassandra
+- Kafka, RabbitMQ
 
 <br/>
 
@@ -115,7 +120,7 @@ Worked with AWS and CI/CD solutions for different projects.
 <br/>
 
 ### iQuate Ltd.
-*April 2017 – Present | Cluj County, Romania
+*April 2017 – July 2018 | Cluj County, Romania
 
 The company is focused on building a platform that scans and then analyses 
 data coming from infrastructure in different datacenters.I am currently 
@@ -128,6 +133,34 @@ working on the project that takes care of the second part.
 > datacenters, the deployment of the required services (Kubernetes on Bare Metal, Kafka, Cassandra) and CI/CD.
 <br/>
 > **Worked with: Scala, Akka, Play, Kubernetes, AWS**
+
+### ComplyAdvantage
+*July 2018 – Present | Cluj County, Romania
+
+The company is focused on building a persons database from public information
+and media with the purpose of fighting financial crime and corruption.
+<br/>
+
+* #### DevOps/SRE
+> Worked with an SRE team on adopting Kubernetes throughout the company and improving the general state of the infrastructure,
+> which is based on AWS. At the same time worked embedded in many development teams and helped with their immediate necessities.
+> Was involved in some design decisions as well for the systems we made.
+> Worked on improving other aspects of development lifecycle:
+> * CI and release
+> * Automating integration/performance tests with GitLab and K8S
+> * Technology adoption requirements
+> * CD with GitOps
+> Worked with the SRE team on designing and implementing the same set of toolings and infrastructure throughout all our AWS accounts.
+> We reffered to this as a development and production release platform developers can use without too much of our help:
+> * Same AWS EKS configuration and access
+> * Prometheus Operator
+> * FluentD, FluentBit and ElasticSearch stack for Logging and Application Monitoring
+> * Strimzi Operator for Kafka
+> * ArgoCD GitOps approach for keeping all this and application deployments up to date with just using Git
+> * and many others...
+> Wrote a bit of code when was required and time allowed it, in Go and Python.
+<br/>
+> **Worked with: AWS, Terraform, AWS EKS, ArgoCD, GitLab and many other AWS Services and other tools**
 
 # Education
 
