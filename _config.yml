@@ -1,6 +1,6 @@
 name: Anei Mihai
 description: Blog of Anei Mihai
-url: "http://mihaianei.github.io"
+url: "http://lebenitza.github.io"
 
 # Author info
 author_name: Anei Mihai
@@ -9,7 +9,7 @@ author_bio: |
     Java developer
 
 # External services
-github_url: "https://github.com/mihaianei"
+github_url: "https://github.com/lebenitza"
 linkedin_url: "https://ro.linkedin.com/in/aneimihai"
 feed_url: ""
 email: "mihai.anei@gmail.com"

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/MihaiAnei/MihaiAnei.github.io.svg?branch=master)](https://travis-ci.org/MihaiAnei/MihaiAnei.github.io)
+![Build](https://github.com/lebenitza/lebenitza.github.io/actions/workflows/pages.yml/badge.svg)
 
 
 Original README. This is a forked repository, made a lot of changes, but it's
