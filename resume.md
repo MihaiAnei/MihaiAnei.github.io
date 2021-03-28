@@ -135,7 +135,7 @@ working on the project that takes care of the second part.
 > **Worked with: Scala, Akka, Play, Kubernetes, AWS**
 
 ### ComplyAdvantage
-*July 2018 – Present | Cluj County, Romania
+*July 2018 – March 2020 | Cluj County, Romania
 
 The company is focused on building a persons database from public information
 and media with the purpose of fighting financial crime and corruption.
@@ -164,6 +164,30 @@ and media with the purpose of fighting financial crime and corruption.
 > Wrote a bit of code when was required and time allowed it, in Go and Python.
 <br/>
 > **Worked with: AWS, Terraform, AWS EKS, ArgoCD, GitLab and many other AWS Services and other tools**
+
+### Cloudsphere
+*March 2020 – Present | Cluj County, Romania
+
+Datacenter scanning, cloud migration planning and, more recently, cloud covernance.
+<br/>
+
+* #### DevOps/SRE
+> I was responsible of improving, consolidating and updating the infrastructure for the services
+> developed in the company, as well as help simplifying the CI/CD pipelines and processes.
+
+> * Implemented monitoring stack using Prometheus Operator
+> * Implemented logging stack using Elasticsearch Operator, Logstash, Filebeat and Kibana
+> * PoC and then implementation of CD with Flux and Helm Operator
+> * Centralized and improved GitLab CI Pipelines definitions for Scala SBT based projects
+> * Upgraded most Scala services to JDK 11, mostly for better CGroups limits support
+> * Cleaned up terraform and added support for workspaces in Azure, AWS and VMware
+> * Moved most of service dependencies to Kubernetes: Kafka, RabbitMQ, Elasticsearch
+> * Used Zalando's Postgresql Operator for on-prem environments (RKE and VMware)
+> * Upgraded all K8S Clusters to at least 1.17 (RKE, AKS and EKS)
+> * Migrated GitLab to a new server and used Ansible for easier management and upgrades
+> * Used Ansible to deploy Cassandra in the newly created environments
+
+<br/>
 
 # Education
 
