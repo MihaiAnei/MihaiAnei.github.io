@@ -1,87 +1,344 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=utf-8>
-        <meta name=viewport content="width=device-width, initial-scale=1.0">
-        <meta name=description content="Blog of Anei Mihai">
 
-        <title>
-          
-          Anei Mihai
-        </title>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML.js type=text/javascript></script>
-        <script>
-            MathJax.Hub.Config({
-              "HTML-CSS": {
-                linebreaks: {
-                    automatic: true,
-                    width: "70% container"
-                },
-                styles: {
-                    ".MathJax .math": {
-                        "border": "1px solid #ccc",
-                        "margin": "0.1em 0",
-                        "padding": "0.3em",
-                        "vertical-align": "middle"
-                    },
-                    ".MathJax_Display .math": {
-                        "border": "none",
-                        "padding": "0",
-                    }
-                },
-                scale: 90
-              }
-            });
-        </script>
+  <title>Jekyll Resume Template</title>
 
-        <link rel=stylesheet type=text/css href=/css/pure-min.css>
-        <link rel=stylesheet type=text/css href=/css/default.css>
-        <link rel=stylesheet type=text/css href=/css/styles.css>
-        <link rel=stylesheet type=text/css href=/css/font-awesome/css/font-awesome.min.css>
+  <!-- Google font typography settings - defined in _config.yml -->
+  
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  
 
-    </head>
-    <body>
-        <div class="container pure-g-r">
-            <div class=pure-u-1-4>
-                <div class=author-info>
-    <h1 class=author-name>
-        <a href=/>
-            <img alt="avatar" src="https://i.imgur.com/HWSILx5.png" class=author-image />
-            <br/>
-            Anei Mihai</a>
-    </h1>
-    <div class=nav>
-        <a href="https://github.com/lebenitza"><i class=icon-github-alt></i></a>
-        <a href="https://ro.linkedin.com/in/aneimihai"><i class=icon-linkedin></a></i>
-            <a href="mailto:mihai.anei@gmail.com"><i class="icon-envelope"></i></a></i>
-    </div>
-    <div class=home-nav>
-        <ul>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/resume/">Resume</a></li>
-        </ul>
-    </div>
-</div>
+  <meta name="description" content="A resume template for Jekyll and GitHub Pages sites.">
 
-            </div>
-            <div class=pure-u-3-4>
-                <div class=right-column>
-                    
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="/">
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+</head>
 
-                </div>
-            </div>
+
+  <body class="theme-default">
+
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="telephone" content=""/>
+      <meta itemprop="address" content=""/>
+
+      <header class="page-header">
+
+        <!-- You can turn off the avatar in _config.yml by setting to false -->
+        
+        <img src="images/avatar.png" alt="my photo" class="avatar no-print" itemprop="image">
+        
+
+        <!-- Your name is defined in the _config.yml file -->
+        <h1 class="header-name" itemprop="name">Mihai A. Anei</h1>
+
+        <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
+        
+
+        <div class="title-bar no-print">
+
+          <!-- Your title is also defined in the _config.yml file -->
+          <h2 class="header-title" itemprop="jobTitle">SRE/DevOps and Programmer</h2>
+
+          <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
+          <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+
+<ul class="icon-links">
+
+  <!-- GitHub link -->
+  
+  <li class="icon-link-item"><a href="https://lebenitza.github.io/resume/" class="icon-link" itemprop="sameAs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve" width="28">
+<path id="GitHub" fill-rule="evenodd" clip-rule="evenodd" fill="#D1CECC" d="M14.01,0C6.27,0-0.01,6.28-0.01,14.02
+  c0,6.19,4.02,11.45,9.59,13.3c0.7,0.13,0.96-0.3,0.96-0.68c0-0.33-0.01-1.21-0.02-2.38c-3.9,0.85-4.72-1.88-4.72-1.88
+  c-0.64-1.62-1.56-2.05-1.56-2.05c-1.27-0.87,0.1-0.85,0.1-0.85c1.41,0.1,2.15,1.44,2.15,1.44c1.25,2.14,3.28,1.52,4.08,1.16
+  c0.13-0.91,0.49-1.52,0.89-1.87c-3.11-0.35-6.38-1.56-6.38-6.93c0-1.53,0.55-2.78,1.44-3.76C6.37,9.17,5.89,7.74,6.65,5.81
+  c0,0,1.18-0.38,3.85,1.44c1.12-0.31,2.32-0.47,3.51-0.47c1.19,0.01,2.39,0.16,3.51,0.47c2.68-1.81,3.85-1.44,3.85-1.44
+  c0.76,1.93,0.28,3.35,0.14,3.71c0.9,0.98,1.44,2.23,1.44,3.76c0,5.38-3.28,6.57-6.4,6.92c0.5,0.43,0.95,1.29,0.95,2.6
+  c0,1.87-0.02,3.39-0.02,3.84c0,0.37,0.25,0.81,0.96,0.67c5.56-1.86,9.58-7.11,9.58-13.3C28.03,6.28,21.75,0,14.01,0z"/>
+</svg>
+</a></li>
+  
+
+  <!-- Twitter link -->
+  
+  
+  <!-- Medium link -->
+  
+
+  <!-- Dribbble link -->
+  
+
+  <!-- Facebook link -->
+  
+
+  <!-- LinkedIn link -->
+  
+  <li class="icon-link-item"><a href="https://ro.linkedin.com/in/aneimihai" class="icon-link" itemprop="sameAs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve" width="28">
+<path id="LinkedIn" fill="#D1CECC" d="M18.82,15.09v3.61h-2.09v-3.37c0-0.85-0.3-1.42-1.06-1.42c-0.58,0-0.92,0.39-1.07,0.77
+  c-0.06,0.13-0.07,0.32-0.07,0.51v3.52h-2.09c0,0,0.03-5.71,0-6.3h2.09v0.89c0,0.01-0.01,0.01-0.01,0.02h0.01V13.3
+  c0.28-0.43,0.77-1.04,1.89-1.04C17.79,12.25,18.82,13.16,18.82,15.09z M9.18,18.7h2.09v-6.3H9.18V18.7z M10.24,9.36
+  c-0.72,0-1.19,0.47-1.19,1.09c0,0.61,0.45,1.09,1.16,1.09h0.01c0.73,0,1.18-0.48,1.18-1.09C11.39,9.84,10.95,9.36,10.24,9.36z
+   M28,14c0,7.73-6.27,14-14,14S0,21.73,0,14S6.27,0,14,0S28,6.27,28,14z M20.93,8.02c0-0.55-0.46-1-1.02-1H8.09
+  c-0.57,0-1.02,0.45-1.02,1v11.96c0,0.55,0.46,1,1.02,1h11.82c0.57,0,1.02-0.45,1.02-1V8.02z"/>
+</svg>
+</a></li>
+  
+
+  <!-- Instagram link -->
+  
+
+  <!-- Website link -->
+  
+
+</ul>
+
+
         </div>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-66601756-1', 'auto');
-  ga('send', 'pageview');
+        <div class="executive-summary" itemprop="description">
+          <p>I like to write code and know about all the ecosystem around it, hence ended up being more SRE than a programmer. I also enjoy working with Kubernetes and everything that revolves around it. Lately looking at Go and NodeJS when writing code.</p>
+        </div>
 
-</script>
+        
+        <a href="mailto:mihai.anei@gmail.com" class="contact-button no-print" itemprop="email">Contact me</a>
+        
 
-    </body>
+      </header>
+
+      
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Cloudsphere</h3>
+          <h4 class="resume-item-details" itemprop="description">DevOps &bull; March, 2020 &mdash; Present</h4>
+          <p class="resume-item-copy">I am responsible of improving, consolidating and updating the infrastructure for the services developed in the company, as well as help simplifying the CI/CD pipelines and processes. <ul class="resume-item-list"> <li>Implemented monitoring stack using Prometheus Operator</li> <li>Implemented logging stack using Elasticsearch Operator, Logstash, Filebeat and Kibana</li> <li>PoC and then implementation of CD with Flux and Helm Operator</li> <li>Centralized and improved GitLab CI Pipelines definitions for Scala SBT based projects</li> <li>Upgraded most Scala services to JDK 11, mostly for better CGroups limits support</li> <li>Cleaned up terraform and added support for workspaces in Azure, AWS and VMware</li> <li>Moved most of service dependencies to Kubernetes: Kafka, RabbitMQ, Elasticsearch</li> <li>Used Zalando's Postgresql Operator for on-prem environments (RKE and VMware)</li> <li>Upgraded all K8S Clusters to at least 1.17 (RKE, AKS and EKS)</li> <li>Migrated GitLab to a new server and used Ansible for easier management and upgrades</li> <li>Used Ansible to deploy Cassandra in the newly created environments</li> <li>Many other migrations and improvements in Azure, AWS and our on-prem infrastructure</li> </ul>
+</p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">ComplyAdvantage</h3>
+          <h4 class="resume-item-details" itemprop="description">DevOps &bull; July, 2018 &mdash; March, 2020</h4>
+          <p class="resume-item-copy">I worked with an SRE team on adopting Kubernetes throughout the company and improving the general state of the infrastructure, which was based on AWS. At the same time I worked embedded in many development teams and helped with their immediate necessities which made me being involved in some design decisions for the systems we made. Some of the work I did was improving aspects of development lifecycle but not only that: <ul class="resume-item-list"> <li>CI and release with GitLab</li> <li>Automating integration/performance tests with GitLab and K8S</li> <li>Technology adoption requirements</li> <li>CD with GitOps (ArgoCD)</li> <li>Performance tuning with Celery</li> <li>Debugging production issues with dev team members</li> </ul> At the same time I was focusing with the SRE team on designing and implementing the same set of toolings and infrastructure throughout all our AWS accounts. We reffered to this as a development and production release platform developers can use without too much of our help: <ul class="resume-item-list"> <li>Same AWS EKS configuration and access</li> <li>Prometheus Operator for monitoring</li> <li>FluentD, FluentBit and ElasticSearch stack for Logging and Application Monitoring</li> <li>Strimzi Operator for Kafka</li> <li>Introduced Elastic APM</li> <li>Automation and maintenance around MongoDB (core part of the platform)</li> </ul>
+</p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">iQuate Ltd.</h3>
+          <h4 class="resume-item-details" itemprop="description">DevOps / Developer &bull; Apr, 2017 &mdash; July, 2018</h4>
+          <p class="resume-item-copy">I was mainly a part of a project called HADM, a microservice platform written in Scala and using Akka Framework (mostly) that analyses the data regarding infrastructure. My main focus was the communication between the platform and the component that sends data from datacenters. I was also involved with the deployment of the required services (Kubernetes on Bare Metal, Kafka, Cassandra) and CI/CD.
+</p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">PitechPlus</h3>
+          <h4 class="resume-item-details" itemprop="description">DevOps / Developer &bull; Jan, 2017 &mdash; March, 2017</h4>
+          <p class="resume-item-copy">Worked briefly with a couple of teams to help improve their CI/CD and AWS infrastructure. Previous experience with programming, Jenkins, GoCD, Rancher, Docker and general familiarity with infrastructure proved really useful. First time realising the concept of DevOps is not really a part of what a programmer wants to do.
+</p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Neverfail (Artisan Infrastructure)</h3>
+          <h4 class="resume-item-details" itemprop="description">Developer &bull; Aug, 2013  &mdash; Nov, 2016</h4>
+          <p class="resume-item-copy">I was part of different teams focused on using new technologies that helped us to implement solutions regarding network analysis and discovery, infrastructure automation, builing a cloud platform and big data analysis. I was responsible with software implementation and testing (mainly java with Spring but also a bit of C/C++, bash, scala), maintenance of different systems and servers, automation and integration for a couple of external services. Projects I worked on: <ul class="resume-item-list"> <li>Architect (Java, Spring, PostgreSQL, Nmap, pcap, winexe, OVA Appliances, Netapp)</li> <li>Virtual Private Datacenter</li> <li>Cloud Service Architect (MongoDB, ActiveMQ, Rancher, Docker, Jenkins, GoCD)</li> <li>Data Driven Services - Billing (Scala, Cassandra, Apache Spark)</li> </ul>
+</p>
+        </div><!-- end of resume-item -->
+        
+
+      </section>
+      <!-- end Experience -->
+      
+
+
+      
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Babeș-Bolyai University - Cluj-Napoca</h3>
+          <h4 class="resume-item-details group" itemprop="description">Bachelor of Computer Science &bull; 2012 &mdash; 2015</h4>
+          <h5 class="resume-item-details award-title" itemprop="description"></h5>
+          <p class="resume-item-copy" itemprop="description">
+            <ul class="resume-item-list">
+              
+            </ul>
+
+
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Colegiul National Radu Negru - Fagaras</h3>
+          <h4 class="resume-item-details group" itemprop="description">High School Diploma Math - Computer Science &bull; 2008 &mdash; 2012</h4>
+          <h5 class="resume-item-details award-title" itemprop="description"></h5>
+          <p class="resume-item-copy" itemprop="description">
+            <ul class="resume-item-list">
+              
+            </ul>
+
+
+          <p class="resume-item-copy">Enjoyed Math and Computer Science competitions</p>
+        </div>
+        
+      </section>
+      <!-- end Education -->
+      
+
+
+      
+      <!-- begin Projects -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="Mihai A. Anei" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">FastOrder</h3>
+          <h4 class="resume-item-details" itemprop="description">Tech and Ideas guy  &bull; 2016 &mdash; Present</h4>
+          <p class="resume-item-copy">This is a friend's startup that I enjoy helping at. Contributed with stable infrastructure on GCP with GKE, GitLab CI, code and ideas. Always keeping up to date with technologies. Currently writing new services with Go, Gin and MongoDB.
+</p>
+        </div>
+        
+
+      </section>
+      <!-- end Projects -->
+      
+
+      
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">English Proficiency</h4>
+          <p class="resume-item-copy">Cambridge CAE certification</p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Tech enthusiast</h4>
+          <p class="resume-item-copy">Always reading and researching</p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Team player</h4>
+          <p class="resume-item-copy">Enjoying brainstorms, pair programming and team buildings</p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Familiar with agile methodologies</h4>
+          <p class="resume-item-copy">I prefer Kanban over Scrum</p>
+        </div>
+        
+
+      </section>
+      <!-- end Skills -->
+      
+
+      
+
+      
+
+      
+      <!-- begin Interests -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Outside Interests</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            
+            <li>Hiking and Biking</li>
+            
+            <li>Music and Reading</li>
+            
+            <li>Traveling</li>
+            
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Interests -->
+      
+
+      
+
+      
+      <!-- begin Print Social Links -->
+      <section class="content-section print-only">
+
+        <header class="section-header">
+          <h2>Social Links</h2>
+        </header>
+
+        <div class="resume-item">
+        <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+
+<ul>
+
+  <!-- GitHub link -->
+  
+  <li><strong>Github</strong>: https://lebenitza.github.io/resume/</li>
+  
+
+  <!-- Twitter link -->
+  
+
+  <!-- Dribbble link -->
+  
+
+  <!-- Facebook link -->
+  
+
+  <!-- LinkedIn link -->
+  
+  <li><strong>LinkedIn</strong>: https://ro.linkedin.com/in/aneimihai</li>
+  
+
+  <!-- Instagram link -->
+  
+
+  <!-- Website link -->
+  
+
+</ul>
+
+
+        </div>
+
+      </section>
+      <!-- end Print Social Links -->
+      
+
+      <!-- <footer class="page-footer">
+        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
+        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+      </footer> -->
+
+    </div>
+
+  </body>
+
 </html>
