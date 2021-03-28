@@ -1,0 +1,10 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: FastOrder
+  role: Tech and Ideas guy
+  duration: 2016 &mdash; Present
+  # url: "#"
+  description: >
+    This is a friend's startup that I enjoy helping at. Contributed with stable infrastructure on GCP with GKE, GitLab CI, code and ideas.
+    Always keeping up to date with technologies. Currently writing new services with Go, Gin and MongoDB.

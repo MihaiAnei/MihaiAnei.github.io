@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: ruby:3
+      image: ruby:2.7
 
     steps:
       - uses: actions/checkout@v2

@@ -1,0 +1,81 @@
+# Jobs
+- company: Cloudsphere
+  position: DevOps
+  duration: March, 2020 &mdash; Present
+  summary: >
+    I am responsible of improving, consolidating and updating the infrastructure for the services
+    developed in the company, as well as help simplifying the CI/CD pipelines and processes.
+    <ul class="resume-item-list">
+    <li>Implemented monitoring stack using Prometheus Operator</li>
+    <li>Implemented logging stack using Elasticsearch Operator, Logstash, Filebeat and Kibana</li>
+    <li>PoC and then implementation of CD with Flux and Helm Operator</li>
+    <li>Centralized and improved GitLab CI Pipelines definitions for Scala SBT based projects</li>
+    <li>Upgraded most Scala services to JDK 11, mostly for better CGroups limits support</li>
+    <li>Cleaned up terraform and added support for workspaces in Azure, AWS and VMware</li>
+    <li>Moved most of service dependencies to Kubernetes: Kafka, RabbitMQ, Elasticsearch</li>
+    <li>Used Zalando's Postgresql Operator for on-prem environments (RKE and VMware)</li>
+    <li>Upgraded all K8S Clusters to at least 1.17 (RKE, AKS and EKS)</li>
+    <li>Migrated GitLab to a new server and used Ansible for easier management and upgrades</li>
+    <li>Used Ansible to deploy Cassandra in the newly created environments</li>
+    <li>Many other migrations and improvements in Azure, AWS and our on-prem infrastructure</li>
+    </ul>
+
+- company: ComplyAdvantage
+  position: DevOps
+  duration: July, 2018 &mdash; March, 2020
+  summary: >
+    I worked with an SRE team on adopting Kubernetes throughout the company and improving the general state of the infrastructure,
+    which was based on AWS. At the same time I worked embedded in many development teams and helped with their immediate necessities which
+    made me being involved in some design decisions for the systems we made. Some of the work I did was improving aspects of development
+    lifecycle but not only that:
+    <ul class="resume-item-list">
+    <li>CI and release with GitLab</li>
+    <li>Automating integration/performance tests with GitLab and K8S</li>
+    <li>Technology adoption requirements</li>
+    <li>CD with GitOps (ArgoCD)</li>
+    <li>Performance tuning with Celery</li>
+    <li>Debugging production issues with dev team members</li>
+    </ul>
+    At the same time I was focusing with the SRE team on designing and implementing the same set of toolings and infrastructure throughout all our AWS accounts.
+    We reffered to this as a development and production release platform developers can use without too much of our help:
+    <ul class="resume-item-list">
+    <li>Same AWS EKS configuration and access</li>
+    <li>Prometheus Operator for monitoring</li>
+    <li>FluentD, FluentBit and ElasticSearch stack for Logging and Application Monitoring</li>
+    <li>Strimzi Operator for Kafka</li>
+    <li>Introduced Elastic APM</li>
+    <li>Automation and maintenance around MongoDB (core part of the platform)</li>
+    </ul>
+
+- company: iQuate Ltd.
+  position: DevOps / Developer
+  duration: Apr, 2017 &mdash; July, 2018
+  summary: >
+    I was mainly a part of a project called HADM, a microservice platform written in Scala and using Akka Framework
+    (mostly) that analyses the data regarding infrastructure. My main focus was the communication between the platform
+    and the component that sends data from datacenters. I was also involved with the deployment of the required services
+    (Kubernetes on Bare Metal, Kafka, Cassandra) and CI/CD.
+
+- company: PitechPlus
+  position: DevOps / Developer
+  duration:  Jan, 2017 &mdash; March, 2017
+  summary: >
+    Worked briefly with a couple of teams to help improve their CI/CD and AWS infrastructure. Previous experience
+    with programming, Jenkins, GoCD, Rancher, Docker and general familiarity with infrastructure proved really useful.
+    First time realising the concept of DevOps is not really a part of what a programmer wants to do.
+
+- company: Neverfail (Artisan Infrastructure)
+  position: Developer
+  duration: Aug, 2013  &mdash; Nov, 2016
+  summary: >
+    I was part of different teams focused on using new technologies that helped us to implement solutions
+    regarding network analysis and discovery, infrastructure automation, builing a cloud platform and big
+    data analysis. I was responsible with software implementation and testing (mainly java with Spring but
+    also a bit of C/C++, bash, scala), maintenance of different systems and servers, automation and integration
+    for a couple of external services. Projects I worked on:
+    <ul class="resume-item-list">
+    <li>Architect (Java, Spring, PostgreSQL, Nmap, pcap, winexe, OVA Appliances, Netapp)</li>
+    <li>Virtual Private Datacenter</li>
+    <li>Cloud Service Architect (MongoDB, ActiveMQ, Rancher, Docker, Jenkins, GoCD)</li>
+    <li>Data Driven Services - Billing (Scala, Cassandra, Apache Spark)</li>
+    </ul>
