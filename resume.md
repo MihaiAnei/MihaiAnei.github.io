@@ -11,9 +11,10 @@ permalink: /resume/
 ### Tools
 --------
 - IntelliJ IDEA, Sublime, VSCode
+- Starship Prompt
 - ZSH, oh-my-zsh
 - GitLab, GitHub, Gogs
-- GNU/Linux(Ubuntu, Arch), MacOS
+- GNU/Linux(Arch/Manjaro), MacOS
 
 <br/>
 
@@ -31,15 +32,6 @@ permalink: /resume/
 
 <br/>
 
-### Frameworks, Notable Libraries
-------------
-- Spring Framework
-- Akka Framework
-- gRPC and protoBuf
-- Immutables, Javaslang
-
-<br/>
-
 ### Other technologies and knowledge
 ------------------------------------
 - Linux Containers (Docker, Rkt)
@@ -47,9 +39,10 @@ permalink: /resume/
 - Kubernetes (Great)
 - CI/CD Automation
 - Virtualization (VMWare, KVM)
-- ArgoCD
+- ArgoCD / Flux / Helm Operator / FluxV2
 - Kubernetes Operators Pattern
 - Terraform
+- Ansible
 - Prometheus
 - AWS & GCE
 
@@ -57,8 +50,9 @@ permalink: /resume/
 
 ### Databases / Stores / Others
 ------------------------------------
-- PostgreSQL, Cassandra
-- Kafka, RabbitMQ
+- PostgreSQL, Cassandra, MongoDB, Redis
+- Elasticsearch, Logstash, Kibana
+- Kafka/Strimzi, RabbitMQ
 
 <br/>
 
