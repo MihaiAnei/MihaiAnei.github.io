@@ -1,8 +1,11 @@
-![Build](https://github.com/lebenitza/lebenitza.github.io/actions/workflows/pages.yml/badge.svg)
+![Build](https://github.com/lebenitza/lebenitza.github.io/actions/workflows/pages.yaml/badge.svg)
 
+---
 
 Original README. This is a forked repository, made a lot of changes, but it's
 fair to leave the original author's readme.
+
+---
 
 # Blog
 
