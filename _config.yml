@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Mihai A. Anei CV"
+description: "CV made with Jekyll and GitHub Pages sites."
 
 # Build settings
 markdown: kramdown
@@ -45,7 +45,7 @@ resume_section_interests:       true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://lebenitza.github.io/resume/"
+  resume_github_url:            "https://github.com/lebenitza"
   # resume_twitter_url:           ""
   # resume_dribbble_url:          ""
   # resume_facebook_url:          ""
